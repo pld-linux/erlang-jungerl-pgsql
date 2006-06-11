@@ -7,7 +7,7 @@ Release:	0.%{_snap}.1
 License:	distributable
 Group:		Development/Languages
 Source0:	%{name}-%{_snap}.tar.gz
-# Source0-md5:	367d9d3ba979cd278b78d6d0393982ba
+# Source0-md5:	6208c2678c9fe34766ad4eff642b50f0
 URL:		http://jungerl.sourceforge.net/
 BuildRequires:	erlang
 Requires:	erlang
