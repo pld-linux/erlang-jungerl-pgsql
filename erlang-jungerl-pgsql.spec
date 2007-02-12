@@ -1,7 +1,7 @@
 # TODO: more subpackages with stuff from lib
 %define	_snap	20060611
 Summary:	A jungle of Erlang code: PostgreSQL library
-Summary(pl):	Døungla kodu Erlanga - biblioteka PostgreSQL
+Summary(pl.UTF-8):   D≈ºungla kodu Erlanga - biblioteka PostgreSQL
 Name:		erlang-jungerl-pgsql
 Version:	0.1
 Release:	0.%{_snap}.1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Jungerl: A jungle of Erlang code. PostgreSQL library.
 
-%description -l pl
-Jungerl - døungla kodu Erlanga, biblioteka PostgreSQL.
+%description -l pl.UTF-8
+Jungerl - d≈ºungla kodu Erlanga, biblioteka PostgreSQL.
 
 %prep
 %setup -q -n %{name}
